@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve(int tc) {
+    int a, b;
+    while (cin>>a>>b) {
+        cout << 2*a*b << endl;
+    }
+}
+
+
+int main() {
+
+    
+    int t=1; 
+    // cin >> t;
+
+
+    int tc=1;
+
+    while(t--) {
+        solve(tc++);
+    }
+    return 0;
+}
