@@ -2,7 +2,7 @@
 using namespace std;
 
 void solve(int tc) {
-    int a, b;
+    long long a, b;
     while (cin>>a>>b) {
         cout << abs(a-b) << endl;
     }
