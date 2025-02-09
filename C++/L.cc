@@ -2,19 +2,15 @@
 using namespace std;
 
 void solve(int tc) {
-    int a, b;
+    long long a, b;
     while (cin>>a>>b) {
-        cout << 2*a*b << endl;
+        cout << abs(a-b) << endl;
     }
 }
 
-
 int main() {
-
-    
     int t=1; 
     // cin >> t;
-
 
     int tc=1;
 

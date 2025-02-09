@@ -14,7 +14,6 @@ int main() {
     int t=1; 
     // cin >> t;
 
-
     int tc=1;
 
     while(t--) {
